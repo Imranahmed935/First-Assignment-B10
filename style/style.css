@@ -289,7 +289,6 @@ main {
   width: 100%;
   height: 600px;
   margin-top: 50px;
-  border: 2px solid red;
 }
 .descip-section {
   text-align: center;
@@ -306,7 +305,7 @@ main {
 .card-section {
   margin-top: 70px;
 }
-.card{
+.card {
   display: flex;
   align-items: center;
   gap: 70px;
@@ -314,17 +313,60 @@ main {
   padding: 20px;
   background-color: #faf7f7;
   border-radius: 10px;
-  
+  border: 2px solid #ddd;
 }
-.card img{
+.card img {
   width: 100px;
 }
-.card h1{
+.card h1 {
   margin-bottom: 10px;
 }
-.card p{
+.card p {
   margin-bottom: 10px;
 }
-.card a{
- color: #000;
+
+.card a {
+  color: #000;
+}
+
+.support-section {
+  width: 100%;
+  height: 314px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-image: url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.support-time {
+  text-align: center;
+  padding: 20px;
+}
+.support-time h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.support-time p {
+  color: #fff;
+  font-size: 16px;
+}
+.input-section {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.input-message {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.submit {
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
 }
