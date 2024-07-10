@@ -265,3 +265,24 @@ main {
 .blog-section{
   color: black;
 }
+/* blog section css */
+.container{
+  padding: 50px;
+  max-width: 1140px ;
+  margin: 0 auto;
+}
+.about-html{
+ background: rgb(223, 250, 250);
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.about-css{
+ background: rgb(254, 213, 227);
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.about-JS{
+ background:rgb(255, 182, 170);
+ padding: 20px;
+
+}
