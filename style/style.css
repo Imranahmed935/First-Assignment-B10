@@ -207,10 +207,61 @@ main {
 }
 
 .video-section {
-  text-align: center;
+  width: 800px;
+  margin: 0 auto;
 }
 .video {
   border: 2px solid #ddd;
   padding: 20px;
   border-radius: 10px;
+}
+.current-target {
+  margin-top: 50px;
+  text-align: center;
+}
+.current-target h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.current-target p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.technology {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 20px;
+  border: 2px solid red;
+}
+.html-section {
+  width: 33%;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 15px;
+}
+.css-section {
+  width: 33%;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 15px;
+}
+.js-section {
+  width: 33%;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 15px;
+}
+.section-img {
+  margin-bottom: 10px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.short {
+  margin-bottom: 10px;
+}
+.blog-section{
+  color: black;
 }
