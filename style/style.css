@@ -186,3 +186,31 @@ main {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+.inspiration-section {
+  margin-top: 100px;
+  max-width: 1140px;
+  min-height: 600px;
+}
+.main-title {
+  text-align: center;
+  padding: 20px;
+}
+.main-title h1 {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.main-title p {
+  font-size: 16px;
+  color: #000;
+}
+
+.video-section {
+  text-align: center;
+}
+.video {
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+}
